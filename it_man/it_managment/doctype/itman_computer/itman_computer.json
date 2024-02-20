@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-19 23:00:48.431282",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "manufacturer",
+  "user",
+  "column_break_vldf",
+  "serial_number",
+  "inventory_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "inventory_number",
+   "fieldtype": "Data",
+   "label": "Inventory Number"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Link",
+   "label": "Manufacturer",
+   "options": "ITMan Manufacturer List"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_vldf",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-19 23:20:00.032518",
+ "modified_by": "Administrator",
+ "module": "IT Managment",
+ "name": "ITMan Computer",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title"
+}

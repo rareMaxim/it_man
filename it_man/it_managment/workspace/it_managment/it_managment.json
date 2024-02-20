@@ -1,0 +1,38 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"LEXuWJN4Bj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Managment</span>\",\"col\":12}},{\"id\":\"7n7kfcdOPg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Computers\",\"col\":3}}]",
+ "creation": "2024-02-19 22:57:52.803117",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "getting-started",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "IT Managment",
+ "links": [],
+ "modified": "2024-02-19 23:10:13.756825",
+ "modified_by": "Administrator",
+ "module": "IT Managment",
+ "name": "IT Managment",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Computers",
+   "link_to": "ITMan Computer",
+   "stats_filter": "[[\"ITMan Computer\",\"name\",\"is\",\"set\",false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "IT Managment"
+}
